@@ -8,5 +8,10 @@ namespace BLE.Shared.Interfaces
 {
     public interface IScanner : IBleObject
     {
+        bool IsScanning { get; }
+
+        void StartScan();
+
+        void StopScan();
     }
 }
