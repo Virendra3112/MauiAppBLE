@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiAppBLE", "MauiAppBLE\MauiAppBLE.csproj", "{2C711F9D-2B1B-41FB-9FCE-B5D91E7FB3E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLE.Abs", "BLE.Abs\BLE.Abs.csproj", "{32CA65A9-A244-44E7-B077-8F46855B06EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLE.Shared", "BLE.Shared\BLE.Shared.csproj", "{6DBCF768-B619-464A-BA53-296BA6687A86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{2C711F9D-2B1B-41FB-9FCE-B5D91E7FB3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C711F9D-2B1B-41FB-9FCE-B5D91E7FB3E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C711F9D-2B1B-41FB-9FCE-B5D91E7FB3E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{32CA65A9-A244-44E7-B077-8F46855B06EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32CA65A9-A244-44E7-B077-8F46855B06EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32CA65A9-A244-44E7-B077-8F46855B06EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32CA65A9-A244-44E7-B077-8F46855B06EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBCF768-B619-464A-BA53-296BA6687A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBCF768-B619-464A-BA53-296BA6687A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBCF768-B619-464A-BA53-296BA6687A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBCF768-B619-464A-BA53-296BA6687A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
