@@ -13,5 +13,6 @@ namespace BLE.Shared.Interfaces
         void StartScan();
 
         void StopScan();
+        void TimeoutScan();
     }
 }

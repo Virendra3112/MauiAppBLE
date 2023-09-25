@@ -8,5 +8,9 @@ namespace BLE.Shared.Interfaces
 {
     public interface IDevice : IBleObject
     {
+        IAdapter Adapter { get; }
+
+        Task<bool> Connect();
+        Task<bool> Disconnect();
     }
 }
