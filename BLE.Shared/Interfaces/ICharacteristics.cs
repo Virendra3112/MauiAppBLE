@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLE.Shared.Interfaces
 {
-    public interface IBleObject : IDisposable
+    public interface ICharacteristics : IBleObject
     {
-        string Name { get; }
-        string Description { get; }
-
-        Guid Guid { get; }
     }
 }
