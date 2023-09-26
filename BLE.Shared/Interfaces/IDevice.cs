@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BLE.Shared.Interfaces
 {
     public interface IDevice : IBleObject
-    {
+    { 
         IAdapter Adapter { get; }
 
         Task<bool> Connect();
