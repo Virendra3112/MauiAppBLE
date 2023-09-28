@@ -1,6 +1,6 @@
 ﻿namespace BLE.Shared.Interfaces
 {
-    public interface IBLEService
+    public interface IBLEService : IDisposable
     {
         IList<ICharacteristics> GetCharacteristics { get; }
 
